@@ -2,7 +2,7 @@ var avatar = null;
 var clicked = false;
 
 var img = new Image();
-img.src = "img/avatar/clicked.png";
+img.src = "img/avatar/clicked.gif";
 
 var audio = new Audio("../data/fart.wav");
 
@@ -16,7 +16,7 @@ function click() {
     avatar.classList.remove("wiggle");
   }
 
-  avatar.src = "img/avatar/clicked.png"
+  avatar.src = "img/avatar/clicked.gif"
   avatar.classList.add("clicked");
   audio.play();
 }
